@@ -1,0 +1,78 @@
+Basics 
+Variables - stores an element 
+Let = can be reassigneed and block scoped
+const = cannot be reassigned and is block scoped as well
+var = avoid, as it is function scoped and can be reassigned as well as makes the code messy
+
+Data types - dictates the type of data
+- string = "hello", 'hello'
+- number of int = 10,20
+boolean - true or false
+Null = intentional empty 
+undefined - variable declared but no value assigned
+object - key and value
+array - stores the element of same data type - array : [1,2,3]
+
+operators and logic
+ == vs === , checks value , === checks value + data type
+ != vs !== same idea
+ && = and 
+ || = or
+ ! = not
+
+ if/ else =, switch, ternary : condition ? true : false
+
+ function
+ function greet (name){
+    return "Hi" + name;
+ }
+
+ arrow function
+
+ Arrow greet = (name) -> "hi" + name;
+
+ object
+ const user - {
+    name : "Ritik"
+    age : 22
+ };
+
+ user["name"]
+
+ Loops
+
+ for
+ while
+ for (let item of array){
+
+ }
+
+ How java object distincts from js one
+
+ const user = {
+    name : "Akhi",
+    age : 20,
+    greet : function(){
+        console.log("hi");
+
+    }
+ }
+
+console.log(user.name);
+user.greet();
+
+An object in js is just a collection of key value pairs. It is the main way you store related
+data and functions together.
+
+Meanwhile in java
+
+object is an instanc of class and allocates memory to data
+
+class student{
+    void intro(){
+    sout("Akhilesh here");
+    }
+}
+
+student s = new Student()
+s.intro();
