@@ -1,0 +1,41 @@
+#Git Commands
+git push origin - pushes the repo or data to the main orgin
+1. git init - Start a new git repo in current folder
+2. git clone <url> - Download repo from github to ur pc
+3. git status - show changed or untracked files
+4. git add file.type - stage specific file for commit
+5. git add .  - stage all changed files for commit
+6. git commit -m "msg" - save staged changes with a message
+7. git pull origin main - download latest chagnes from github
+8. git log --oneline - show commit history in short from
+9. git log - show commit historyy 
+10. git diff - show exact line changes not committed yet
+11. get branch - List all branches 
+12. git branch <name> - create a new branch
+13. git remote -v - Show githu url linked to repo
+14. git reset --hard - discard all uncommitted changes 
+15. git restore <file> - discard changes in specific file
+cd .. - leave current directory
+cd -  - go to previous
+
+   bisect     Use binary search to find the commit that introduced a bug
+   diff       Show changes between commits, commit and working tree, etc
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   backfill   Download missing objects in a partial clone
+   branch     List, create, or delete branches
+   commit     Record changes to the repository
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   reset      Reset current HEAD to the specified state
+   switch     Switch branches
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
