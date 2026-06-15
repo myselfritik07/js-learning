@@ -53,3 +53,6 @@ console.log(comment.nodeType); // 8
 
 //console.dir(document.body.innerHTML); provide whole html
 console.dir(document.body.innerText);
+
+console.dir(document);//access html through js.
+console.dir(document.body);//for accessing body or even head as same manner.
