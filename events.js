@@ -28,7 +28,8 @@ let btn = document.querySelector(".btn");
 // }
 
 //event listener
-//node.addEventListener(event, callback)=> btn.addEventListener(event,callback)
+//node.addEventListener(event, callback)=> btn.addEventListener(event,callback). As event is the event we want to 
+//show and callback is the thing we want that event to perform.
 //node.removeEventlistener(event, callback)
 //Note: Callback reference should be same if removing the event.
 // whereas -> Events can be of any kind like click onmouse etc and callback is what deals with the event.
